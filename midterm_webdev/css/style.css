@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #D3D3D3;}
+tr:nth-child(odd) {background-color: #00B0FF;}
+
+.links{
+  width: 15%;
+  height: 50px;
+  background-color: #000;
+  color: #00B0FF;
+  float: left;
+  margin: 10px;
+  clear: both;
+  font-family: Inconsolata;
+}
+
+
+#roundedImage {
+  border-radius: 25px;
+  background-image: url('../images/Me_Left.jpg');
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 32px;
+  height: 50px;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+
+#headerLinks{
+  padding: 0px; margin: 0px;
+  height: 75px;
+  width: 100%;
+  background-color: #000;
+  color: #00B0FF;
+  font-family: Inconsolata;
+  text-align: left;
+  position: fixed;
+  top: 0px; left: 0px;
+  z-index: 1;
+}
+
+#header1{
+   padding-top: 75px;
+   
+}
+
+#header3{
+  padding-top: 75px;
+  text-align: center;
+}
+
+
+#footer1{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #777;
+  color: white;
+  text-align: center;
+}
+
+#footer2{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+
+#footer3{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #011f4f;
+  color: white;
+  text-align: center;
+}
+
+.first-row{
+  width: 30%;
+  height: 50px;
+  background-color: #c12828;
+  float: left;
+  margin: 10px;
+}
+
+.sec-row{
+  width: 350px;
+  height: 50px;
+  background-color: #e5f442;
+  float: left;
+  margin: 10px;
+}
+
+.third-row{
+  width: 25%;
+  height: 50px;
+  background-color: #85008e;
+  float: left;
+  margin: 10px;
+  clear: both;
+}
+
+ol{ 
+  float: left;
+  margin: 10px;
+  clear: both;
+}
+
+#list{
+  float: left;
+  margin: 10px;
+  clear: both;
+}
+
+#para{
+  float: left;
+  margin: 10px;
+  clear: both;
+  font-family: Inconsolata;
+}
+
+#para2{
+  hegiht: 50px;
+  width: 750px;
+  font-family: Inconsolata;
+  position: fixed;
+  bottom: 200px;
+  right: 100px;
+}
+
+p{ 
+font-family: Inconsolata;
+}
